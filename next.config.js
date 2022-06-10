@@ -24,10 +24,9 @@ const nextConfig = {
     defaultLocale: 'id',
     localeDetection: false, // using middleware to determine locale
   },
-
-  // TODO: Uncomment this to show the error
   assetPrefix: '/' + BASE_PREFIX_FOR_APP, // [1]
   images: {
+    // TODO: comment this to make it accessible (not 404)
     path: `/${BASE_PREFIX_FOR_APP}/_next/image`, // [1]
   },
   async rewrites() {
